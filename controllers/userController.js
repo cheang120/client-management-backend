@@ -105,7 +105,7 @@ const generateToken = (id) => {
         res.cookie("token", token, {
             path: "/",
             httpOnly: true,
-            expires: new Date(Date.now() + 1000 * 86400), // 1 day
+            // expires: new Date(Date.now() + 1000 * 86400), // 1 day
             sameSite: "none",
             secure: true,
         });
