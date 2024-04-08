@@ -19,7 +19,7 @@ app.use(express.urlencoded({extended:false}))
 app.use(bodyParser.json())
 app.use(
     cors({
-      origin: ["http://localhost:3002", "https://client-management.vercel.app"],
+      origin: ["http://localhost:3002", "https://https://client-management-app-teal.vercel.app/"],
       credentials: true,
     })
   );
